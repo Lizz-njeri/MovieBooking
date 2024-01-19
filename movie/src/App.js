@@ -7,6 +7,7 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Mpesachoice from './pages/Mpesa-choice'
 import Paypalchoice from './pages/Paypal-choice'
+import Book from './pages/book'
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/signup" element={<Signup/>} />
         <Route path="/mpesa-choice" element={<Mpesachoice/>} />
         <Route path="/paypal-choice" element={<Paypalchoice/>} />
+        <Route path="/book" element={<Book/>} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -22,7 +22,7 @@ export default function CallToActionWithAnnotation() {
           textAlign={'center'}
           spacing={{ base: 8, md: 14 }}
           py={{ base: 20, md: 36 }}>
-          <Flex flex={1}>
+        <Flex flex={1}>
         <Image
           alt={'Login Image'}
           objectFit={'cover'}
@@ -44,14 +44,15 @@ export default function CallToActionWithAnnotation() {
             alignSelf={'center'}
             position={'relative'}>
             <Button
-              colorScheme={'green'}
-              bg={'green.400'}
+              colorScheme={'purple'}
+              bg={'black'}
               rounded={'full'}
+              href={'#'}
               px={6}
               _hover={{
-                bg: 'green.500',
+                bg: 'purple.500',
               }}>
-              Get Started
+              Book Now
             </Button>
             <Box>
               <Icon
@@ -69,7 +70,7 @@ export default function CallToActionWithAnnotation() {
                 right={'-125px'}
                 top={'-15px'}
                 transform={'rotate(10deg)'}>
-                Starting at $15/mo
+                Goes at $15
               </Text>
             </Box>
           </Stack>

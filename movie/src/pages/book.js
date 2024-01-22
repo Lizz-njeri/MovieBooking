@@ -33,9 +33,7 @@ export default function CallToActionWithAnnotation() {
         />
         </Flex>
           <Text color={'gray.500'}>
-            Monetize your content by charging your most loyal readers and reward them
-            loyalty points. Give back to your loyal readers by granting them access to
-            your pre-releases and sneak-peaks.
+            This movie is available for booking.
           </Text>
           <Stack
             direction={'column'}

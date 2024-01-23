@@ -23,7 +23,7 @@ export default function WithBackgroundImage() {
             fontWeight={700}
             lineHeight={1.2}
             fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-           Explore the movies available and book the ones to watch.
+           Explore the movies available and book the ones to watch. Enjoy the exclusive variety.
           </Text>
           <Stack direction={'row'}>
             <Button
